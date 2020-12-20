@@ -15,7 +15,6 @@ import fileToDataUrl from './helpers';
 import Utilities from '../../../../dataLayer';
 import { baseURL } from '../../../../constants';
 import Quiz from '../components/Quiz';
-import RandomFact from '../components/RandomFact/randomFact';
 import useStyles from './styles';
 import EditQuizImage from '../../../../assets/quizedit.png';
 import NewQuestion from '../../../../assets/newquestion.png';
@@ -390,7 +389,6 @@ const QuizEdit = () => {
     <section>
       { questionId ? editQuestion(questionId) : (
         <div>
-          <RandomFact />
           <div className={classes.addQuestionBtn}>
             <Button variant="contained" color="secondary" onClick={handleOpenNewQuestion}>
               ADD QUESTION
