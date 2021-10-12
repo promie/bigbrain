@@ -1,0 +1,26 @@
+{
+  "quizzes": [
+    {
+      "id": 56513315,
+      "createdAt": "2020-10-31T14:45:21.077Z",
+      "name": "My first quiz",
+      "thumbnail": "https://images.pexels.com/photos/584636/pexels-photo-584636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "owner": "shrey@unsw.edu.au",
+      "active": null,
+      "oldSessions": [
+        4545546
+      ]
+    },
+    {
+      "id": 56513316,
+      "createdAt": "2020-10-31T14:46:21.077Z",
+      "name": "My second quiz",
+      "thumbnail": "https://images.pexels.com/photos/5846898/pexels-photo-5846898.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "owner": "paul@unsw.edu.au",
+      "active": true,
+      "oldSessions": [
+        4545546
+      ]
+    }
+  ]
+}
